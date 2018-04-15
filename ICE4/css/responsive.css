@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+}
+
+/* MIDSIZE DISPLAY BELOW*/
+@media only screen and (min-width:650px) and (max-width:1000px) {
+
+.logo {
+	padding-bottom:10px;
+}
+
+.top-nav ul {
+	border-top: solid 1px red;
+	margin: 5px 10%;
+	padding-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    margin-top: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top: none;
+    height: 50px;
+    text-align: center;
+}
+
+/* MIDSIZE IMAGE PAGE */
+.photo-grid {
+	display: grid;
+	padding-top: 10px;
+}
+
+.photo-cell {
+    grid-column: span 2;
+}
+
+.yellow {
+    grid-column: 1 / 2;
+}
+
+.bluish {
+    grid-column: 2 / 2;
+}
+}
+
+/* WIDESCREEN DISPLAY BELOW*/
+
+
+
+
+
