@@ -1,0 +1,21 @@
+#img1 {
+	padding: 5%;
+	border: 5px solid blue;
+	width: 40%;
+}
+
+#img2 {
+	padding: 5%;
+	border: 5px solid blue;
+	width: 40%;
+}
+
+.row {
+      margin-top:25px;
+      width:100%;
+      height: 400px;
+    }
+
+}
+
+
