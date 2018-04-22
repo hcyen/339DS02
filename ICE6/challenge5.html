@@ -63,16 +63,15 @@
 <script type="text/javascript">
   // I used Two functions here.  Starter idea at: 
   // https://codepen.io/ColleenEMc/pen/XmZzWw
-  var imgSource = img.src;
-  var altText = img.alt;
   var image = document.getElementById("image");
   
-  function display {
+  function display(img) {
     image.style.backgroundImage = "url(" + img.src + ")";
-    image.innerHTML = altText;
+    image.innerHTML = img.alt;
   }
 
-  function hide {
+  function hide() {
+    image.innerHTML = img.alt;
     image.style.backgroundImage = "";
     image.innerHTML = "Hover over an image below.";
   }
