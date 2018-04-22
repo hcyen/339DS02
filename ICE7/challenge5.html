@@ -45,8 +45,8 @@
   $(".preview").on("mouseleave blur", hide);
     });
 
-  var $image = $(this);
     function display(){
+      var $image = $(this);
       $("#image").text($img.attr("alt"));
       $("#image").css("background-image", "url(" + $img.attr("src") + ")");
     }
